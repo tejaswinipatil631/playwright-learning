@@ -1,0 +1,17 @@
+{
+  "name": "playwright-learning",
+  "version": "1.0.0",
+  "description": "A basic Playwright setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:report": "npx playwright show-report"
+  },
+  "author": "teju",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.43.0",
+    "typescript": "^5.3.3"
+  }
+}
